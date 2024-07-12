@@ -114,6 +114,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Unity/project/2021.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -322,6 +323,7 @@
 -r:"D:/Unity/project/2021.3.24f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"D:/Unity/project/Project for Final/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"D:/Unity/project/Project for Final/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -361,10 +363,12 @@
 "Assets/DirtyApartments/Standard Assets/Image Effects (Pro Only)/VortexEffect.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CameraFollower.cs"
-"Assets/Scripts/Door.cs"
+"Assets/Scripts/Doors.cs"
+"Assets/Scripts/FlashLight.cs"
+"Assets/Scripts/Ladder.cs"
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/MouseLook1.cs"
-"Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Singleton.cs"
 -langversion:9.0
 
 /deterministic
