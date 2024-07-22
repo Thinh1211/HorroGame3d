@@ -8,42 +8,54 @@ public class Doors : MonoBehaviour
 
     public AudioSource doorSound;
     public bool inReach;
-
+    private bool isOpen=false;
 
 
 
     void Start()
     {
         inReach = false;
+        isOpen = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Reach")
         {
-            inReach = true;
+            Debug.Log(inReach);
+            if (!isOpen)
+            {
+                isOpen = true;
+                inReach = true;
+               
+            }
+            else
+            {
+                isOpen = false;
+                inReach = true;
+            }
+           
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
-        {
+        
             inReach = false;
-        }
+        
     }
 
     
     void Update()
     {
 
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (inReach && isOpen && Input.GetButtonDown("Interact"))
         {
             DoorOpens();
             Debug.Log("1");
         }
 
-        else
+        else if (inReach && !isOpen && Input.GetButtonDown("Interact"))
         {
             DoorCloses();
             Debug.Log("2");
@@ -52,6 +64,7 @@ public class Doors : MonoBehaviour
     }
     void DoorOpens()
     {
+        isOpen=true;
         door.SetBool("Open", true);
         door.SetBool("Closed", false);
         doorSound.Play();
@@ -60,6 +73,7 @@ public class Doors : MonoBehaviour
 
     void DoorCloses()
     {
+        isOpen=false;
         door.SetBool("Open", false);
         door.SetBool("Closed", true);
     }

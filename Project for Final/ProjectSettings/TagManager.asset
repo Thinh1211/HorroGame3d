@@ -7,6 +7,7 @@ TagManager:
   - Reach
   - Fire
   - Ladder
+  - DoorHandle
   layers:
   - Default
   - TransparentFX
