@@ -15,7 +15,7 @@ C:/Users/DUCLONG/Unity/Thinh's Project/Project for Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60245
+49351
 Successfully changed project path to: C:/Users/DUCLONG/Unity/Thinh's Project/Project for Final
 C:/Users/DUCLONG/Unity/Thinh's Project/Project for Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/DUCLONG/Unity/Thinh's Project/Project for Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26376] Host "[IP] 192.168.2.103 [Port] 0 [Flags] 2 [Guid] 1226813209 [EditorId] 1226813209 [Version] 1048832 [Id] WindowsEditor(7,LongNoob) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18228] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4244953187 [EditorId] 4244953187 [Version] 1048832 [Id] WindowsEditor(7,LongNoob) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26376] Host "[IP] 192.168.2.103 [Port] 0 [Flags] 2 [Guid] 1226813209 [EditorId] 1226813209 [Version] 1048832 [Id] WindowsEditor(7,LongNoob) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18228] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4244953187 [EditorId] 4244953187 [Version] 1048832 [Id] WindowsEditor(7,LongNoob) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 9.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006611 seconds.
-- Loaded All Assemblies, in  0.382 seconds
+Registered in 0.007099 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
+Android Extension - Scanning For ADB Devices 346 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 923ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (92ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (136ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (544ms)
+	FinalizeReload (691ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (456ms)
+		SetupLoadedEditorAssemblies (629ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (305ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (462ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 923ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.598 seconds
-Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1402ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (285ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (338ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (139ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (807ms)
+	FinalizeReload (819ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (514ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3824 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (435.1 KB). Loaded Objects now: 4307.
-Memory consumption went from 187.1 MB to 186.6 MB.
-Total: 4.750600 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.133900 ms MarkObjects: 3.968800 ms  DeleteObjects: 0.303000 ms)
+Unloading 44 unused Assets / (451.1 KB). Loaded Objects now: 4307.
+Memory consumption went from 187.3 MB to 186.9 MB.
+Total: 3.592600 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.838700 ms  DeleteObjects: 0.347300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,74 +185,1265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 473757.655571 seconds.
-  path: Assets/Scenes/scene1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/scene1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ea2c35837b29018fcbc9e91a91c89b58') in 0.002534 seconds
+  Time since last request: 225075.657037 seconds.
+  path: Assets/Prefabs/Scene2/Room (test) 1.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/Room (test) 1.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69968db28fd3fe0b63cbf0e0d25039df') in 0.122721 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 145
 ========================================================================
 Received Import Request.
-  Time since last request: 7.557975 seconds.
-  path: Assets/Prefabs/Scene2/Room.prefab
-  artifactKey: Guid(b427ff706d6ab0248bbf802e0006e25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Scene2/Room.prefab using Guid(b427ff706d6ab0248bbf802e0006e25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 18.109369 seconds.
+  path: Assets/Prefabs/Scene2/Appartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/Appartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3474728cb13bc61c2bc252fc520e100f') in 0.097075 seconds
+ -> (artifact id: '897ee03dc7f840a8f0f7208dd5c6f448') in 0.026537 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 18.206827 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a051fceafd80c1f084094ce87b1386f') in 0.022814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 101.262277 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c68cb7d65154d9e65b40c3d15e39ad0b') in 0.026724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.153896 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82792fc59dfc6dbfc1d67eed3e8e255b') in 0.023297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 1.385919 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e1bfd0611ca014d299d99c531b3d827') in 0.024624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 46.702933 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a92c82ebd8f5baae2fadf352b345e3c') in 0.026361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 1.586946 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57e17665f35f6ad37dc1396801e53730') in 0.027936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 2.191474 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4e3c44e31caa89bc9d242f35d5eb357') in 0.027158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 42.166739 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '274c92f4f95f465ec69269ff6b7de027') in 0.024818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.975262 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a4da72bf59eddd5d28c942dafd12087') in 0.027877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 33.285660 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd98c08d40b707aff7b2574ce08013726') in 0.025780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 20.545774 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8feedb1cb6aa492947afe953d208d0f6') in 0.027969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 1.788569 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9764ce543ec50cbc856200dc9fe743b') in 0.024406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 20.739508 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '452230d724d2d8db70ac4698f8125d09') in 0.026307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 6.438457 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7bdcd51b842c45ddaa46d08ced31841') in 0.026439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 7.837279 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fcbf0b7f2e0fc095eeffee8655f1c0e') in 0.027394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 38.493465 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '106daade9477b6a8cf39908cb510a9bf') in 0.012891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 13.306363 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '428068d996b02a1c07e7ce77661110d0') in 0.019894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 7.041391 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ca2901eac8fd9d2e0af9c82d7388e9c') in 0.020707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 6.229855 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25b2fa9fdd87cdad3549af2651de0ced') in 0.020304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 18.119749 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd12d9434dfa5922b405dcf83d2ddafa') in 0.029297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 25.183882 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1391518bb777dcc77b97af3f872cebf4') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 7.622266 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '719cc26c4cd6ce7201b3453c5f62708f') in 0.024160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.818727 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13e406e4ad8efb75f8c31e804a948212') in 0.021408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 9.847457 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8cd1f3afb3c419263816ee5a361b9b6') in 0.026836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.403986 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91d937d10361c199949272830e117b13') in 0.026357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.775277 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3123f38ccd682212ca4eedbff26a0dd9') in 0.024771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 7.065979 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '102ba140bef0bfc2e9defaa0c3d0cb95') in 0.024496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 7.245331 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38f1199107aaf33c6b674ea41ffecbe4') in 0.025364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 7.842503 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '041c3ef42c90c62e4031e9edcacc7495') in 0.024520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.421938 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98055f1f8575151f7fa737b268dcf2bb') in 0.025415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.822417 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '332a7ab255903cfa2f1e5b88dc7ee113') in 0.026932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.222245 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae4e4fc0991894965935d18e4f3aec58') in 0.017450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.603146 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab394fb9c91d462c3110fe33e8fe1a8d') in 0.028281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 7.824599 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6bf76fe98bef012678f4d762c0666f7') in 0.027811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.622693 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a503ea9ee97944b89afe4cc374611d8') in 0.031786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 21.105124 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7f420982c932b4f3332f4abffbd7b1b') in 0.027801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 13.519640 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5cc3a2db4cf2032441cd342edc9dfb0c') in 0.025313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.633402 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f54b041da6d964c4014e36a32f2e0ab') in 0.024859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.881546 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '987c0c0e7802ffd94f8d96914463da98') in 0.024511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.009532 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2615e8d9634ced4637969ffc43740fe') in 0.025479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.828148 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd896e32d64475248a0ae6e039c0d57c') in 0.025950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.019141 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0682651375edcdf55edde0947fd1b079') in 0.024604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 21.965004 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8425907315889072111a16daf18aa3d2') in 0.024804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.998280 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4899a09475cbe9a13ff9598df3707a94') in 0.027743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 13.497571 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55a65ea13d7a53a3947df0ba8fb652ed') in 0.024444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.405785 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26ffcebe5be2f02d139213d8363a912c') in 0.026914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 13.471513 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e37e9a53cab31fbb646b20aebd89b17') in 0.024886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.399630 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b3e63315bea30ad2431c21ea38fe632') in 0.019575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 9.456849 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18af5a392001dd752f162a6b146131f9') in 0.025324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 10.087884 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cf3728ac8243a33749cb0fde6d8c857') in 0.024258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.400828 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bf507425bd84c82fe59b1be1b8a33d8') in 0.027095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 16.312795 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '595a1dbe7fafbb9e191cbfefef9c24bf') in 0.027963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.410057 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e461f1ba0f02d91e6af3e1cc05b34dc1') in 0.025556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.845170 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13f3e74c02f737792ed61495616175ec') in 0.023843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.199847 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3f65ec7bfdcd5bbafbfc52f53fec368') in 0.026627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 34.705197 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '115bb9a434483ecd50dff7cc46c4e004') in 0.023653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.608340 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '521534be5cce1f50e54fc677cdb275a8') in 0.024861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.614862 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c494b65261a85f54519f7ef8cceecaf') in 0.025423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 9.862896 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aabd361a786f4609d350e5b64a2dc187') in 0.025123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 36.532687 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'adba403c6c33f53fa4a774b24310c759') in 0.027648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.182801 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7510c399638e0918eb5f883d250de42') in 0.025276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.398943 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0771b89f51bd8d7acdaaad7e864b56dc') in 0.028291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.413773 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be54c2df375c0c4f361f251f9e7163bf') in 0.024204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.236107 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b844686230894a3ee653cff091d9f1f7') in 0.024459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.187636 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b14276565a3863e60303d2e40f7525c') in 0.025790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.237404 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '08dcf5c188420fb418e8071cd476ccaf') in 0.024633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.210756 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c76a275578a49cf47d228c6add5a9c85') in 0.025280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.210400 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d95104a8be6f3ba7810919a56bf6c4a') in 0.030395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 25.980588 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43f780e2c604b4eb93695c7c0d54be45') in 0.024323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.369560 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c44a4a084f644a706e44048cb09928f5') in 0.026379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.383287 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '079270c2f2280c9d989f86fd59cdfed0') in 0.027408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 14.897007 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a50a8f5e4bd98fcfe72dbfe8c53983e1') in 0.027594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.207450 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '082ea41ee6c91ab5249a9aa0e590fd72') in 0.025952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.780156 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '368f91bd8a12f2cf04cc43d1193fd732') in 0.025437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 9.047844 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0da06e9cbaeffe5a3f401b240d3f1167') in 0.026564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.009767 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6469ed3c118e76ce987738d5d9c16f7f') in 0.025843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 9.047941 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1e5a7c378a0a4199680284c057f44f1') in 0.025279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.006106 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ae64b9801a9f895fb00f359c3a22484') in 0.026267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 11.468285 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61be03d03b15207c8b06528ce377521f') in 0.025350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.006008 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40d57c2cf5203b07588bbe5a2b4700bd') in 0.026318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.801800 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '518b50a2c15baf93d4828e0fb491f379') in 0.024158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 5.456681 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fd17624e40e1c22aacfcf07d934001d') in 0.025164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.000313 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a84d8f25f457ece7ab832d5ed11ba0d') in 0.024448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.782553 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '146176881c87798598106630b7e627be') in 0.025252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.399378 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16b589139b07ff686690210d4854bf8f') in 0.025641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.781934 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9baa2862267099a3cb285391a97a09b4') in 0.026032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.806845 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb2c2d3d8cba3ace34e50a69ca2d5609') in 0.026085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 3.806351 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9879c3579016935084fdc4cbb7ef6f59') in 0.025246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 60.810860 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '229b95715b9ce235f76353d0a72cea41') in 0.026076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.456343 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11ecb118afbb27dd1a13dd8906f92cda') in 0.024156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 4.420648 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b5a0cbe08ee72ab54629cb83bb435e7') in 0.025291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 63.628535 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8a518f8b9ab1607265d07d7cf503764') in 0.028786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 15.293678 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16a9f13f7788e0ffc438db1e6955fc3b') in 0.026642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 5.243955 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b08c3bb46bdaa109271f7c06a6396ea') in 0.025471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 34.085884 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c51b71afa5ba7a0b56e4719e381c6263') in 0.021677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 3.611310 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbae971ccebc88c6ce54ae8b1a1d63b0') in 0.030014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 12.147760 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33c1f7e62bf98b22f4de281d0dd4ed57') in 0.026315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 2.995374 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba4dfbca64d360640306b5a36b6d38af') in 0.023558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 5.456798 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd1eed60225335352392da5cf6553670b') in 0.026744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 4.655317 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc2b8e05cee9e94345b1c22c30519ced') in 0.025997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 2.401766 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f207f3fb5484fdf0736e324cf98b5d67') in 0.026125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 11.277377 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19e0fd9fceae729eb9321d6cebec2406') in 0.028890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 2.983987 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f6f771f48494c40ba0c344d6add9235') in 0.028057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 11.247868 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66ad8a8bfcb4afa32ae6bd5a8a056905') in 0.031012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.188235 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37c41e33a5a876827b82d74f881ad581') in 0.025887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 34.042252 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93bb3846bcd19e9b28d08495d4cbf828') in 0.030092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 23.552874 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c919f1a0c8530e85fa738162478c5321') in 0.027647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 9.670185 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34a30f5d8466ee121bf8c5793bc245db') in 0.028851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 7.245344 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '285a1b7ac021bef250c66d42b696edc6') in 0.026341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.604553 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fe58967d61fbf788e26d3b86a75039c') in 0.042081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 2.785377 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d2bc90c7dce978196851da5c9e9c284') in 0.025809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 5.211883 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27943ecadd685a5382a74eeeed98170e') in 0.026452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 4.815057 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06ff68dbf0f2e58ddda47fb6a07d0ae0') in 0.025768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 24.617219 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a012bea90987719c336cfc15af794158') in 0.026944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 8.916777 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26e1d5bb277a5281ec06048da0457dc0') in 0.027954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 13.672709 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06dbf8e9d6d56656714d3d8ce4e3a838') in 0.028836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 7.620907 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '620456b71246bca04f34701e37b6f9b0') in 0.028152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 6.022068 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02980715b3f7cd639b0088aebde56e15') in 0.025688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 29.811567 seconds.
+  path: Assets/Prefabs/Scene2/apartment.prefab
+  artifactKey: Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Scene2/apartment.prefab using Guid(d9eab225f75497c44926372e547baa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '927d90ba1f5866a93d784661595f86d3') in 0.026268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.448 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.488 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.412 seconds
-Domain Reload Profiling: 1858ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  1.300 seconds
+Domain Reload Profiling: 1785ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (291ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1413ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1300ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (602ms)
+		SetupLoadedEditorAssemblies (744ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (459ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (407.0 KB). Loaded Objects now: 4320.
-Memory consumption went from 156.7 MB to 156.3 MB.
-Total: 3.620200 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.963200 ms  DeleteObjects: 0.285600 ms)
+Unloading 27 unused Assets / (431.9 KB). Loaded Objects now: 4320.
+Memory consumption went from 157.3 MB to 156.8 MB.
+Total: 5.016000 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.232200 ms MarkObjects: 4.185300 ms  DeleteObjects: 0.299900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -269,52 +1460,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 433.842285 seconds.
-  path: Assets/DirtyApartments/_models/doors_frames/doorFrame_1.fbx
-  artifactKey: Guid(862074be69120466aa854af2246d0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DirtyApartments/_models/doors_frames/doorFrame_1.fbx using Guid(862074be69120466aa854af2246d0172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '68bde488fa11b693f210e77a9f60da76') in 0.120884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DirtyApartments/_models/doors_frames/doorWing_2.fbx
-  artifactKey: Guid(7c1b1bc2946be41b1ab95e95a0835624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DirtyApartments/_models/doors_frames/doorWing_2.fbx using Guid(7c1b1bc2946be41b1ab95e95a0835624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '931ea3bb9280aff509cbe923d6423d0e') in 0.019202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/DirtyApartments/_models/doors_frames/windowWingSmall.fbx
-  artifactKey: Guid(4d293ad1fef2349cfbf72ab7df0b006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DirtyApartments/_models/doors_frames/windowWingSmall.fbx using Guid(4d293ad1fef2349cfbf72ab7df0b006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0db4bd3fb74e5e5cfa7599bbaad97898') in 0.016799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/DirtyApartments/_models/doors_frames/windowWingLarge.fbx
-  artifactKey: Guid(d87eb537807e24c16ba7e8f15c9529ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DirtyApartments/_models/doors_frames/windowWingLarge.fbx using Guid(d87eb537807e24c16ba7e8f15c9529ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '224841cd4327f998a1281342d46e2459') in 0.026848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
